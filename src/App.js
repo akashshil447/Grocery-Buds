@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import List from './List'
 import Alert from './Alert'
 
+// Using Local Storage to store and retrieve list values
 const getLocalStorage = () => {
   let list = localStorage.getItem('list')
   if (list) {
